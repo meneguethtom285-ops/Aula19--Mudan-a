@@ -1,43 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    background: #000;
-    }
-    
-    
-    h1 {
-    margin-bottom: 20px;
-    }
-    
-    
-    section img {
-    margin: 11px;
-    }
-    
-    
-    .ultimas img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    }
-    
-    
-    section.ultimas {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 900px;
-    margin: 20px auto;
-    }
-    
-    
-    section.ultimas p {
-    text-align: justify;
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 1.6;
-    text-indent: 2em;
-    }
+.galeria-jogadores {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* opcional */
+}
+
+.galeria-jogadores img {
+    width: 180px; /* ajuste como quiser */
+    border-radius: 8px;
+}
